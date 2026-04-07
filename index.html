@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI 뉴스 브리핑 - 2026년 4월 6일</title>
+  <title>AI 뉴스 브리핑 - 2026년 4월 7일</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -15,60 +15,76 @@
     header {
       background: #1a1a2e;
       color: #fff;
-      padding: 2rem 1.5rem 1.5rem;
+      padding: 32px 24px 24px;
       text-align: center;
     }
     header h1 { font-size: 2rem; letter-spacing: -0.5px; }
-    header .date { margin-top: 0.4rem; font-size: 0.95rem; opacity: 0.75; }
-
+    header .date { margin-top: 6px; font-size: 0.95rem; color: #a0aec0; }
     .summary-box {
-      background: #e8f4fd;
-      border-left: 4px solid #1a73e8;
-      margin: 1.5rem auto;
-      max-width: 900px;
-      padding: 1.2rem 1.5rem;
-      border-radius: 6px;
+      max-width: 860px;
+      margin: 28px auto 0;
+      background: #fff;
+      border-left: 5px solid #4f46e5;
+      border-radius: 8px;
+      padding: 20px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     }
-    .summary-box h2 { font-size: 1rem; color: #1a73e8; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.5px; }
-    .summary-box ul { list-style: none; }
-    .summary-box ul li { padding: 0.2rem 0; font-size: 0.95rem; }
-    .summary-box ul li::before { content: "• "; color: #1a73e8; font-weight: bold; }
-
-    main { max-width: 900px; margin: 0 auto; padding: 0 1rem 2rem; }
-
-    .section { margin-bottom: 2rem; }
+    .summary-box h2 { font-size: 1rem; color: #4f46e5; margin-bottom: 10px; letter-spacing: 0.5px; text-transform: uppercase; }
+    .summary-box ul { padding-left: 18px; }
+    .summary-box li { font-size: 0.97rem; margin-bottom: 6px; color: #343a40; }
+    main { max-width: 860px; margin: 32px auto 48px; padding: 0 16px; }
+    .section { margin-bottom: 36px; }
     .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       font-size: 1.15rem;
       font-weight: 700;
-      color: #fff;
-      background: #343a40;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      margin-bottom: 1rem;
+      color: #1a1a2e;
+      border-bottom: 2px solid #e9ecef;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
     }
-
+    .section-title .badge {
+      background: #4f46e5;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
     .news-card {
       background: #fff;
-      border: 1px solid #dee2e6;
       border-radius: 8px;
-      padding: 1rem 1.2rem;
-      margin-bottom: 0.8rem;
-      transition: box-shadow 0.15s;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      border: 1px solid #e9ecef;
+      transition: box-shadow 0.2s;
     }
-    .news-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    .news-card h3 { font-size: 1rem; margin-bottom: 0.3rem; }
-    .news-card h3 a { color: #1a73e8; text-decoration: none; }
-    .news-card h3 a:hover { text-decoration: underline; }
-    .news-meta { font-size: 0.78rem; color: #868e96; margin-bottom: 0.5rem; }
-    .news-summary { font-size: 0.88rem; color: #495057; }
-
-    footer {
-      text-align: center;
-      padding: 1.5rem;
+    .news-card:hover { box-shadow: 0 4px 14px rgba(79,70,229,0.12); }
+    .news-card a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      text-decoration: none;
+    }
+    .news-card a:hover { color: #4f46e5; text-decoration: underline; }
+    .meta {
       font-size: 0.8rem;
       color: #868e96;
+      margin: 4px 0 8px;
+    }
+    .summary {
+      font-size: 0.9rem;
+      color: #495057;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.82rem;
+      color: #adb5bd;
       border-top: 1px solid #dee2e6;
-      background: #fff;
     }
   </style>
 </head>
@@ -76,15 +92,15 @@
 
 <header>
   <h1>AI 뉴스 브리핑</h1>
-  <div class="date">2026년 4월 6일 (월)</div>
+  <p class="date">2026년 4월 7일 (화)</p>
 </header>
 
 <div class="summary-box">
   <h2>핵심 요약</h2>
   <ul>
-    <li>OpenAI가 총 $122B(약 170조원) 규모의 사상 최대 민간 자금 조달을 완료하며 AI 인프라 확장을 가속화하고 있다.</li>
-    <li>Google Gemini Pro 신모델이 주요 벤치마크에서 최고 기록을 경신했으며, Arcee AI의 400B 오픈소스 LLM이 Meta Llama를 능가하는 성능을 보였다.</li>
-    <li>미국 의회와 주(州) 정부 간 AI 규제 주도권 갈등이 심화되는 가운데, 백악관은 AI 국가 정책 프레임워크를 발표했다.</li>
+    <li>OpenAI가 역대 최대 규모인 1,220억 달러 투자 유치를 완료하며 IPO 기대감이 고조되고 있습니다.</li>
+    <li>트럼프 행정부가 아동 보호·혁신·언론 자유 등 7개 분야를 아우르는 국가 AI 정책 프레임워크를 발표했습니다.</li>
+    <li>GrandCode, Chart-RL 등 강화학습 기반 최신 AI 논문이 arXiv에 주목받으며 에이전트 AI 연구가 급증하고 있습니다.</li>
   </ul>
 </div>
 
@@ -92,149 +108,198 @@
 
   <!-- 섹션 1: LLM/생성AI -->
   <section class="section">
-    <div class="section-title">🤖 LLM / 생성 AI</div>
-
-    <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/02/19/googles-new-gemini-pro-model-has-record-benchmark-scores-again/" target="_blank" rel="noopener">Google Gemini Pro 신모델, 벤치마크 점수 또 최고 기록 경신</a></h3>
-      <div class="news-meta">TechCrunch · 2026.02.19</div>
-      <div class="news-summary">Google이 Gemini Pro 최신 버전을 공개하며 Humanity's Last Exam 등 독립 벤치마크에서 이전 버전 대비 크게 향상된 성능을 입증했다. 프리뷰 공개 후 곧 일반 출시될 예정이다.</div>
+    <div class="section-title">
+      <span>LLM / 생성AI</span>
+      <span class="badge">모델·벤치마크</span>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/01/28/tiny-startup-arcee-ai-built-a-400b-open-source-llm-from-scratch-to-best-metas-llama/" target="_blank" rel="noopener">스타트업 Arcee AI, Meta Llama 능가하는 400B 오픈소스 LLM 공개</a></h3>
-      <div class="news-meta">TechCrunch · 2026.01.28</div>
-      <div class="news-summary">소형 스타트업 Arcee AI가 4,000억 파라미터 규모의 오픈소스 파운데이션 모델 'Trinity'를 자체 개발해 공개했다. 주요 벤치마크에서 Meta Llama 4 Maverick 400B와 Z.ai GLM-4.5를 상회하는 성능을 기록했다.</div>
+      <a href="https://artificialanalysis.ai/leaderboards/models" target="_blank" rel="noopener">
+        GPT-5.4·Claude Opus 4.6, AI 리더보드 최상위권 경쟁
+      </a>
+      <div class="meta">Artificial Analysis &nbsp;|&nbsp; 2026-04-07</div>
+      <p class="summary">
+        Gemini 3.1 Pro Preview와 GPT-5.4(xhigh)가 Intelligence Index 57점으로 공동 1위를 차지했으며, Claude Opus 4.6(max)도 상위권에 포진했습니다.
+        100개 이상 LLM의 성능·가격·속도를 실시간 비교하는 리더보드가 주목받고 있습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://help.openai.com/en/articles/9624314-model-release-notes" target="_blank" rel="noopener">OpenAI 모델 릴리즈 노트: GPT-5 계열 최신 업데이트</a></h3>
-      <div class="news-meta">OpenAI · 2026.04</div>
-      <div class="news-summary">OpenAI는 추론·코딩·에이전틱 워크플로우를 통합한 GPT-5 계열 모델들을 지속 업데이트하고 있다. 월 매출 $20억 달성을 발표하며 사용량이 폭발적으로 증가하고 있다고 밝혔다.</div>
+      <a href="https://pricepertoken.com/news/model-releases" target="_blank" rel="noopener">
+        NVIDIA Nemotron 3 Super 120B 하이브리드 모델 출시
+      </a>
+      <div class="meta">Price Per Token &nbsp;|&nbsp; 2026-04-06</div>
+      <p class="summary">
+        NVIDIA가 Mamba-Transformer 혼합 전문가(MoE) 구조의 Nemotron 3 Super 120B를 공개했습니다.
+        활성 파라미터 12B에 1M 컨텍스트를 지원하며 GPT-OSS-120B 대비 2.2배 처리 속도를 자랑합니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://arxiv.org/html/2503.08223v1" target="_blank" rel="noopener">LLM 스케일링 한계 극복: 대규모 엣지 디바이스 분산 학습 연구</a></h3>
-      <div class="news-meta">arXiv · 2026.03</div>
-      <div class="news-summary">대형 언어모델의 스케일링 한계를 엣지 디바이스 분산 자원으로 돌파하는 방법론을 제안한 논문이 arXiv에 공개됐다. 기존 중앙 집중형 학습 대비 비용 효율성을 크게 높일 수 있다고 주장한다.</div>
+      <a href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">
+        Google Gemini 3.1 Pro Preview 공개, 멀티모달 최고 성능 달성
+      </a>
+      <div class="meta">LLM Stats &nbsp;|&nbsp; 2026-04-05</div>
+      <p class="summary">
+        Google이 Gemini 3.1 Pro Preview를 공개하며 주요 멀티모달 벤치마크에서 최상위 성능을 기록했습니다.
+        2025년 이후 강화학습 기반 사후 훈련이 LLM 성능 도약의 핵심 요인으로 분석됩니다.
+      </p>
     </div>
 
-    <div class="news-card">
-      <h3><a href="https://arxiv.org/abs/2412.01020" target="_blank" rel="noopener">LLM 평가를 위한 AI 벤치마크 및 데이터셋 종합 조사</a></h3>
-      <div class="news-meta">arXiv · 2025.12 (ICLR 2026 채택)</div>
-      <div class="news-summary">LLM 평가에 활용되는 벤치마크와 데이터셋을 체계적으로 분류·분석한 서베이 논문으로, ICLR 2026에 채택됐다. 현재 평가 방법의 한계와 향후 방향을 제시한다.</div>
-    </div>
   </section>
 
   <!-- 섹션 2: AI 논문/연구 -->
   <section class="section">
-    <div class="section-title">📄 AI 논문 / 연구</div>
-
-    <div class="news-card">
-      <h3><a href="https://arxiv.org/list/cs.AI/current" target="_blank" rel="noopener">arXiv AI 분야 4월 최신 논문 목록 (cs.AI)</a></h3>
-      <div class="news-meta">arXiv · 2026.04</div>
-      <div class="news-summary">arXiv 인공지능 분류(cs.AI) 4월 제출 논문들이 공개됐다. 프로액티브 에이전트, 다중 에이전트 협업, 과학 문헌 분석 등 다양한 응용 분야 연구가 활발하다.</div>
+    <div class="section-title">
+      <span>AI 논문 / 연구</span>
+      <span class="badge">arXiv</span>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://arxiv.org/list/cs.CV/current" target="_blank" rel="noopener">컴퓨터 비전 4월 논문 목록: CVPR 2026 채택작 다수 포함</a></h3>
-      <div class="news-meta">arXiv · 2026.04</div>
-      <div class="news-summary">CVPR 2026 채택 논문들이 arXiv를 통해 공개되고 있다. 3D 비주얼 그라운딩, 비전-언어 모델의 오브젝트 환각(hallucination) 억제 등 멀티모달 연구가 두드러진다.</div>
+      <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noopener">
+        GrandCode: 강화학습으로 경쟁 프로그래밍 그랜드마스터 수준 달성
+      </a>
+      <div class="meta">arXiv · cs.AI &nbsp;|&nbsp; 2026-04-06</div>
+      <p class="summary">
+        에이전트 강화학습을 활용해 경쟁 프로그래밍에서 그랜드마스터 수준의 성능을 달성한 연구입니다.
+        알고리즘 추론과 코드 생성 분야에서 LLM의 새로운 가능성을 제시했습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://arxiv.org/list/cs.LG/recent" target="_blank" rel="noopener">머신러닝 최신 논문 (cs.LG): 다중 에이전트·LLM 협업 연구 활발</a></h3>
-      <div class="news-meta">arXiv · 2026.04</div>
-      <div class="news-summary">LLM과 인간 전문가를 결합한 폐루프(closed-loop) 과학 문헌 요약 프레임워크, 동료 검토 기반 환각 감지 등 실용성 높은 연구들이 잇달아 제출됐다.</div>
+      <a href="https://arxiv.org/list/cs.LG/recent" target="_blank" rel="noopener">
+        Chart-RL: 시각 언어 모델의 차트 QA 정책 최적화 강화학습 기법
+      </a>
+      <div class="meta">arXiv · cs.LG &nbsp;|&nbsp; 2026-04-05</div>
+      <p class="summary">
+        차트 질문 응답(QA)에서 시각 언어 모델의 시각적 추론 능력을 강화하는 강화학습 접근법입니다.
+        복잡한 데이터 시각화 해석에서 기존 모델 대비 유의미한 성능 향상을 보였습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://arxiv.org/pdf/2602.12424" target="_blank" rel="noopener">ICLR 2026 채택 논문: 기하학적 추론을 위한 다중 CoT 투표 기법</a></h3>
-      <div class="news-meta">arXiv / ICLR 2026 · 2026.02</div>
-      <div class="news-summary">LLM의 기하학적 추론 능력 향상을 위한 다중 Chain-of-Thought 투표 방식이 ICLR 2026에 채택됐다. 단일 CoT 대비 복잡한 도형 문제 해결 정확도가 크게 오른다고 보고한다.</div>
+      <a href="https://arxiv.org/list/cs.AI/current" target="_blank" rel="noopener">
+        AIVV: 자율 시스템을 위한 신경-기호 LLM 통합 검증 프레임워크
+      </a>
+      <div class="meta">arXiv · cs.AI &nbsp;|&nbsp; 2026-04-04</div>
+      <p class="summary">
+        신경망과 기호 추론을 결합해 자율 시스템의 안전성을 검증·확인하는 LLM 에이전트 프레임워크입니다.
+        신뢰할 수 있는 AI 시스템 구축을 위한 검증 방법론으로 주목받고 있습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://arxiv.org/list/cs.RO/recent" target="_blank" rel="noopener">ICRA 2026 채택: 드론-지상로봇 협력 에너지 인식 계획 알고리즘</a></h3>
-      <div class="news-meta">arXiv / ICRA 2026 · 2026.04</div>
-      <div class="news-summary">확률적 환경에서 UAV-UGV 팀의 에너지 효율적 안전 계획을 다루는 PRO-SPECT 알고리즘이 ICRA 2026에 채택됐다. 실제 드론 실험을 통해 성능을 검증했다.</div>
+      <a href="https://arxiv.org/list/cs.CL/recent" target="_blank" rel="noopener">
+        장기 과제 LLM 에이전트를 위한 이중 메모리 신경-기호 프레임워크
+      </a>
+      <div class="meta">arXiv · cs.CL &nbsp;|&nbsp; 2026-04-03</div>
+      <p class="summary">
+        진행 상황 추적과 실행 가능성을 동시에 고려하는 이중 메모리 구조를 활용해 장기 목표 수행 능력을 높인 연구입니다.
+        복잡한 다단계 작업에서 LLM 에이전트의 일관성 문제를 해결하는 데 기여합니다.
+      </p>
     </div>
+
   </section>
 
   <!-- 섹션 3: AI 기업/투자 -->
   <section class="section">
-    <div class="section-title">💰 AI 기업 / 투자</div>
-
-    <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/" target="_blank" rel="noopener">OpenAI, 소매 투자자 포함 $1,220억 역대 최대 민간 자금 조달 완료</a></h3>
-      <div class="news-meta">TechCrunch · 2026.03.31</div>
-      <div class="news-summary">OpenAI가 SoftBank, Amazon, NVIDIA, Microsoft 등이 참여한 총 $1,220억 규모 펀딩을 마무리했다. 기업 가치는 $8,520억으로 평가됐으며, 은행 채널을 통한 일반 투자자 참여($30억)도 포함됐다.</div>
+    <div class="section-title">
+      <span>AI 기업 / 투자</span>
+      <span class="badge">펀딩·제품</span>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://www.bloomberg.com/news/articles/2026-04-01/microsoft-pledges-5-5-billion-ai-investment-in-singapore" target="_blank" rel="noopener">Microsoft, 싱가포르 AI 인프라에 $55억 투자 약속</a></h3>
-      <div class="news-meta">Bloomberg · 2026.04.01</div>
-      <div class="news-summary">Microsoft가 2029년까지 싱가포르 AI 산업 지원을 위해 $55억을 투자하겠다고 발표했다. 데이터센터 확충과 AI 인재 양성 프로그램이 핵심 내용이다.</div>
+      <a href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank" rel="noopener">
+        OpenAI, 역대 최대 1,220억 달러 투자 유치 완료… IPO 기대감 고조
+      </a>
+      <div class="meta">CNBC &nbsp;|&nbsp; 2026-03-31</div>
+      <p class="summary">
+        OpenAI가 SoftBank, Andreessen Horowitz, D.E. Shaw Ventures 등이 참여한 1,220억 달러 규모 투자 라운드를 마감했습니다.
+        이는 당초 발표된 1,100억 달러보다 늘어난 것으로, IPO를 앞두고 관심이 집중되고 있습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://www.bloomberg.com/news/articles/2026-03-10/yann-lecun-s-new-ai-startup-raises-1-billion-in-seed-funding" target="_blank" rel="noopener">얀 르쿤(Yann LeCun) 창업 AI 스타트업, 시드 단계 $10억 조달</a></h3>
-      <div class="news-meta">Bloomberg · 2026.03.10</div>
-      <div class="news-summary">Meta 수석과학자 얀 르쿤이 설립한 AI 스타트업이 시드 라운드에서 $10억을 조달했다. 르쿤의 'World Model' 비전을 실현하는 새로운 AI 아키텍처 개발에 집중할 계획이다.</div>
+      <a href="https://techcrunch.com/2026/04/07/hermeus-raises-350m-to-build-unmanned-hypersonic-fighters/" target="_blank" rel="noopener">
+        Hermeus, 무인 극초음속 전투기 개발에 3억 5,000만 달러 투자 유치
+      </a>
+      <div class="meta">TechCrunch &nbsp;|&nbsp; 2026-04-07</div>
+      <p class="summary">
+        AI 기반 항공 스타트업 Hermeus가 무인 극초음속 전투기 개발을 위해 3억 5,000만 달러를 유치했습니다.
+        방산 분야에서 AI 자율 비행 기술에 대한 대규모 투자가 잇따르는 추세입니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/" target="_blank" rel="noopener">AI 영상 스타트업 Runway, $3.15억 투자 유치… 기업가치 $53억</a></h3>
-      <div class="news-meta">TechCrunch · 2026.02.10</div>
-      <div class="news-summary">AI 비디오 생성 분야 선두 스타트업 Runway가 $53억 기업가치로 $3.15억 투자를 유치했다. 더 강력한 월드 모델 개발을 목표로 연구·인프라 확장에 투자할 예정이다.</div>
+      <a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/" target="_blank" rel="noopener">
+        Q1 2026 글로벌 벤처 펀딩 기록 경신… AI가 전체 80% 차지
+      </a>
+      <div class="meta">Crunchbase News &nbsp;|&nbsp; 2026-04-02</div>
+      <p class="summary">
+        2026년 1분기 전 세계 스타트업 투자 총액이 3,000억 달러를 돌파하며 역대 최대치를 기록했습니다.
+        이 중 약 2,420억 달러(80%)가 AI 관련 기업에 집중되어 AI 붐이 투자 시장을 주도하고 있습니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/" target="_blank" rel="noopener">Anthropic·xAI·Google 출신들이 창업한 Humans&amp;, 시드 $4.8억 조달</a></h3>
-      <div class="news-meta">TechCrunch · 2026.01.20</div>
-      <div class="news-summary">'인간 중심 AI'를 표방하는 스타트업 Humans&amp;이 시드 라운드에서 $4.8억을 조달했다. Anthropic, xAI, Google 출신 연구자들이 공동 창업했으며, 사용자 자율성과 안전성을 우선하는 AI 개발을 목표로 한다.</div>
+      <a href="https://news.crunchbase.com/venture/funding-surges-all-stages-ai-north-america-q1-2026/" target="_blank" rel="noopener">
+        Mistral AI, 시리즈 C 17억 유로 조달… 기업가치 117억 유로로 급등
+      </a>
+      <div class="meta">Crunchbase News &nbsp;|&nbsp; 2026-04-01</div>
+      <p class="summary">
+        프랑스 AI 스타트업 Mistral AI가 시리즈 C 라운드에서 17억 유로(약 2조 6,000억 원)를 조달했습니다.
+        기업가치가 117억 유로로 평가되며 유럽 최대 AI 유니콘으로 자리매김하고 있습니다.
+      </p>
     </div>
+
   </section>
 
   <!-- 섹션 4: AI 정책/규제 -->
   <section class="section">
-    <div class="section-title">⚖️ AI 정책 / 규제</div>
-
-    <div class="news-card">
-      <h3><a href="https://www.bloomberg.com/opinion/articles/2026-03-23/the-white-house-s-ai-plan-is-anything-but" target="_blank" rel="noopener">백악관 AI 국가 정책 프레임워크 발표… "계획이라 부르기 어렵다" 비판도</a></h3>
-      <div class="news-meta">Bloomberg Opinion · 2026.03.23</div>
-      <div class="news-summary">백악관이 미국의 AI 개발 우위를 유지하고 중국과의 경쟁에서 이기기 위한 국가 AI 정책 프레임워크를 공개했다. 그러나 Bloomberg 칼럼니스트는 구체적 실행 방안이 없는 선언에 그친다고 비판했다.</div>
+    <div class="section-title">
+      <span>AI 정책 / 규제</span>
+      <span class="badge">정부·법률</span>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://techcrunch.com/2025/06/30/congress-might-block-state-ai-laws-for-five-years-heres-what-it-means/" target="_blank" rel="noopener">미 의회, 주(州) AI 법 장기간 차단 시도… 연방 vs 州 규제 갈등 심화</a></h3>
-      <div class="news-meta">TechCrunch · 2025.06.30</div>
-      <div class="news-summary">연방 차원에서 주별 AI 규제를 장기간 차단하려는 시도가 이어지고 있으나 아직 입법에 이르지 못했다. 캘리포니아 SB 53, 뉴욕 RAISE Act 등 주 단위 규제는 계속 추진되고 있다.</div>
+      <a href="https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/" target="_blank" rel="noopener">
+        트럼프, 국가 AI 입법 프레임워크 발표… 혁신·아동보호·언론자유 7개 원칙
+      </a>
+      <div class="meta">The White House &nbsp;|&nbsp; 2026-03-24</div>
+      <p class="summary">
+        트럼프 행정부가 아동 보호, 지식재산권, 혁신 촉진, 언론 자유 등 7개 영역을 다루는 AI 국가 정책 프레임워크를 공개했습니다.
+        주(州)별 규제 난립을 방지하기 위한 연방 선점 조항과 규제 샌드박스 도입도 권고됩니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://www.anthropic.com/news/anthropic-is-endorsing-sb-53" target="_blank" rel="noopener">Anthropic, 캘리포니아 SB 53 공개 지지 선언</a></h3>
-      <div class="news-meta">Anthropic Blog · 2026</div>
-      <div class="news-summary">Anthropic이 캘리포니아주 프론티어 AI 투명성 법안 SB 53을 공개 지지한다고 밝혔다. 프론티어 AI 모델에 대한 타겟형 규제가 혁신을 저해하지 않으면서 안전을 담보할 수 있다는 입장을 피력했다.</div>
+      <a href="https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation" target="_blank" rel="noopener">
+        상원의원, 291페이지 'TRUMP AMERICA AI Act' 초안 공개
+      </a>
+      <div class="meta">Latham &amp; Watkins &nbsp;|&nbsp; 2026-04-01</div>
+      <p class="summary">
+        Marsha Blackburn 상원의원이 미국 역사상 가장 포괄적인 연방 AI 규제 법안 초안을 발표했습니다.
+        이 법안은 AI 안전, 투명성, 책임 소재 등을 규율하며 연방 차원 단일 AI 규제 체계 구축을 목표로 합니다.
+      </p>
     </div>
 
     <div class="news-card">
-      <h3><a href="https://openai.com/index/our-agreement-with-the-department-of-war/" target="_blank" rel="noopener">OpenAI, 미 국방부와 AI 활용 협정 체결… "자율 무기 독자 지휘 금지"</a></h3>
-      <div class="news-meta">OpenAI Blog · 2026</div>
-      <div class="news-summary">OpenAI가 미국 국방부와 AI 시스템 활용에 관한 협정을 발표했다. 법률이 인간 통제를 요구하는 경우 AI가 자율 무기를 독자적으로 지휘하는 데 사용되지 않는다는 조건이 명시됐다.</div>
+      <a href="https://iapp.org/resources/article/global-ai-legislation-tracker" target="_blank" rel="noopener">
+        IAPP 글로벌 AI 법률·정책 트래커 2026년 1분기 업데이트
+      </a>
+      <div class="meta">IAPP &nbsp;|&nbsp; 2026-04-03</div>
+      <p class="summary">
+        국제개인정보보호전문가협회(IAPP)가 전 세계 AI 관련 법률·정책 현황을 집계한 트래커를 업데이트했습니다.
+        EU AI법 시행 이후 미국, 영국, 캐나다, 한국 등 주요국의 입법 움직임이 활발해지고 있습니다.
+      </p>
     </div>
 
-    <div class="news-card">
-      <h3><a href="https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/" target="_blank" rel="noopener">AI 데이터센터 인프라 반대 운동 가열… 뉴욕 3년 건축 허가 모라토리엄 추진</a></h3>
-      <div class="news-meta">TechCrunch · 2026.02.25</div>
-      <div class="news-summary">데이터센터 과부하에 대한 지역 사회 반발이 거세지는 가운데, 뉴욕주는 신규 데이터센터 건축 허가를 3년간 동결하는 법안을 추진하고 있다. 전력 소비와 환경 영향이 주요 쟁점이다.</div>
-    </div>
   </section>
 
 </main>
 
 <footer>
-  <p>AI 뉴스 브리핑 · 자동 생성 · 2026년 4월 6일</p>
-  <p style="margin-top:0.3rem;">출처: TechCrunch, Bloomberg, OpenAI Blog, Anthropic Blog, arXiv</p>
+  <p>AI 뉴스 브리핑 &copy; 2026 &nbsp;|&nbsp; 자동 생성: 2026-04-07 &nbsp;|&nbsp; 출처: TechCrunch, arXiv, CNBC, Crunchbase, White House, IAPP</p>
 </footer>
 
 </body>
